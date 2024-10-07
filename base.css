@@ -1,0 +1,161 @@
+/* GERAL */
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+/* MENU */
+.menu {
+    width: 15%;
+    background-color: rgb(42, 42, 42);
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu ul {
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.menu li {
+    height: 25%;
+    align-content: center;
+    border-bottom: solid 1px;
+    border-color: white;
+}
+.menu li a {
+    color: rgb(250, 241, 241);
+}
+.menu li a:hover {
+    color: black;
+}
+
+/* HEADER */
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+/* CONTEÚDO */
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content p {
+    text-align: justify;
+    text-indent: 5%;
+    align-content: center;
+    line-height: 20px;
+    height: 80%;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #87618B;
+    min-height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(243, 236, 236);
+    display: flex;
+}
+.footer ul {
+    list-style: none;
+    width: 50%;
+    align-content: center;
+}
+.footer li {
+    padding-bottom: 2%;
+}
+
+/* SOBRE */
+.content-2 {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content-2 p {
+    text-align: justify;
+    text-indent: 5%;
+    align-content: center;
+    line-height: 20px;
+}
+
+/* HORÁRIO */
+.content-3 {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content-3 ul {
+    padding-left: 65px;
+}
+.content-3 p {
+    text-align: justify;
+    text-indent: 5%;
+    align-content: center;
+    line-height: 20px;
+}
+.content-3 table {
+    width: 100%;
+    text-align: left;
+}
+.content-3 thead {
+    color: white;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+}
+.content-3 tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+.content-3 tbody tr:hover td {
+    background-color: #b1b1b1;
+}
+.content-3 tfoot {
+    background-color: rgb(178, 187, 196);
+}
+
+/* CONTATO */
+.content-4 {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+.content-4 p {
+    text-align: justify;
+    text-indent: 5%;
+    align-content: center;
+    line-height: 20px;
+}
+form label {
+    width: 70px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+    align-content: center;
+}
+form .row {
+    margin: 5px;
+}
